@@ -35,19 +35,46 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
    * ``` pip install joblib```
 
 ## Usage
-1. Clone the repository:
-   
+1. Clone the repository.
+   ```sh
+   git clone https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN.git
+   cd Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN
+   ```
+2. Install the required dependencies.
+3. Adjust model and haarcascade in demo.py file file location from your path (if required).
+   ```sh
+   model = tf.keras.models.load_model('...yourpath/model/model.h5')
+   scale = load('...yourpath/model/scaling.pkl')
+   label = load('...yourpath/model/label.pkl')
+   ```
+   ```sh
+   face_cascade = cv2.CascadeClassifier('...yourpath/haarcascade_frontalface_default.xml')
+   eye_cascade = cv2.CascadeClassifier('...yourpath/haarcascade_eye.xml')
+   mouth_cascade = cv2.CascadeClassifier('...yourpath/haarcascade_smile.xml')
+   ```
+5. Run demo.py on your IDE or run on CMD (Terminal) with:
+   ```sh
+   python demo.py
+   ```
+6. The system will display the video feed with detected faces and recognized emotions.
+7. Press the  ``` q ``` key on keyboard to quit the application.
 
 ## YouTube
 
 
-
 ## Realtime Demo Preview
-
-
+![Picture1](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/d1168abd-fd68-44b9-bf18-14397621ba50)
+![Picture2](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/2932711f-5606-455d-95df-2f4b53bc2ca0)
+<br/><br/>
+**Detect From Picture**<br/><br/>
+![Picture3](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/c8838b3c-0b21-48b9-a808-f6aeafe50c65)
+<br/><br/><br/>
+**Detect 2 Emotion, From Picture and Human Face**<br/><br/>
+![Picture4](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/099a737b-2eda-4559-b5d5-615219f3f831)
 
 <br/><br/>
-Universitas Udayana <br/>
 Program Studi Informatika <br/>
+Mata Kuliah Pengantar Pemrosesan Data Multimedia
+<br/><br/>
+Universitas Udayana <br/>
 Tahun Ajaran 2023/2024 <br/>
-Mata Kuliah: Pengantar Pemrosesan Data Multimedia
