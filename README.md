@@ -10,7 +10,7 @@ The core of our project lies in the utilization of GLCM, a texture analysis tech
 
 This is a Python 3 based project to display facial expressions (happy, sad, anger, fear, disgust, surprise, neutral, contempt) by performing fast & accurate face detection with OpenCV using a pre-trained neural networks face detector model shipped with the library.
 
-The model is trained on the **AffectNet** dataset which was published on kaggle. This dataset consists of 29042 RGB pictures, 96x96 sized face images with 8 emotions - angry, disgusted, fearful, happy, neutral, sad, surprise, and contempt
+The model is trained on the **AffectNet** dataset which was published on kaggle. This dataset consists of 29042 RGB pictures, 96x96 sized face images with 8 emotions - angry, disgusted, fearful, happy, neutral, sad, surprise, and contempt.
 
 ## Dataset
 
