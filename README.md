@@ -41,7 +41,7 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
    cd Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN
    ```
 2. Install the required dependencies.
-3. Adjust model and haarcascade in demo.py file file location from your path (if required).
+3. Adjust model and haarcascade file location in demo.py with your path location (if required).
    ```sh
    model = tf.keras.models.load_model('...yourpath/model/model.h5')
    scale = load('...yourpath/model/scaling.pkl')
