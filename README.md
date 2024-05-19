@@ -25,10 +25,18 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
    * ``` pip install tensorflow```
    * ``` pip install tflearn```
    * ``` pip install keras```
+   * ``` pip install pandas```
+   * ``` pip install seaborn ```
+   * ``` pip install matplotlib```
+   * ``` pip install scikit-image```
+   * ``` pip install scikit-learn```
+   * ``` pip install pillow ```
+   * ``` pip install keras-tuner```
+   * ``` pip install joblib```
 
 ## Usage
-
-
+1. Clone the repository:
+   
 
 ## YouTube
 
@@ -39,6 +47,7 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 
 
 <br/><br/>
-Informatika Udayana 2024
-
+Universitas Udayana <br/>
+Program Studi Informatika <br/>
+Tahun Ajaran 2023/2024 <br/>
 Mata Kuliah: Pengantar Pemrosesan Data Multimedia
