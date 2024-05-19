@@ -1,6 +1,6 @@
 # Realtime Face Emotion Recognition
 
-Our GitHub repository houses a cutting-edge project titled "Dynamic Emotion Recognition System with GLCM and Artificial Neural Networks (ANN)"—a groundbreaking exploration into real-time emotion analysis. Leveraging the power of Gray-Level Co-occurrence Matrix (GLCM) and the versatility of Artificial Neural Networks (ANN), this project aims to revolutionize emotion recognition technology.
+Our GitHub repository houses a cutting-edge project titled "Realtime Face Emotion Recognition System with GLCM and Artificial Neural Networks (ANN)"—a groundbreaking exploration into real-time emotion analysis. Leveraging the power of Gray-Level Co-occurrence Matrix (GLCM) and the versatility of Artificial Neural Networks (ANN), this project aims to revolutionize emotion recognition technology.
 
 Emotions play a pivotal role in human communication and interaction. Understanding and interpreting emotions accurately in real-time scenarios is a challenging task with significant implications across various domains, including human-computer interaction, healthcare, and entertainment.
 
