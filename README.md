@@ -83,7 +83,7 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 
 <br/><br/>
 Program Studi Informatika <br/>
-Mata Kuliah Pengantar Pemrosesan Data Multimedia
+Mata Kuliah Pengantar Pemrosesan Data Multimedia.
 <br/><br/>
 Universitas Udayana <br/>
 Tahun Ajaran 2023/2024 <br/>
