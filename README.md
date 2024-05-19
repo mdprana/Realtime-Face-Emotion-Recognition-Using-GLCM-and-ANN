@@ -63,14 +63,26 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 
 
 ## Realtime Demo Preview
-![Picture1](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/d1168abd-fd68-44b9-bf18-14397621ba50)
-![Picture2](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/2932711f-5606-455d-95df-2f4b53bc2ca0)
+<p align="cleft">
+  <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/d1168abd-fd68-44b9-bf18-14397621ba50" alt="Picture1" width="300" height="250">
+  <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/2932711f-5606-455d-95df-2f4b53bc2ca0" alt="Picture2" width="300" height="250">
+</p>
+
+<br/>
+**Detect From Picture**
 <br/><br/>
-**Detect From Picture**<br/><br/>
-![Picture3](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/c8838b3c-0b21-48b9-a808-f6aeafe50c65)
-<br/><br/><br/>
-**Detect 2 Emotion, From Picture and Human Face**<br/><br/>
-![Picture4](https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/099a737b-2eda-4559-b5d5-615219f3f831)
+
+<p align="left">
+  <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/c8838b3c-0b21-48b9-a808-f6aeafe50c65" alt="Picture3" width="300" height="250">
+</p>
+
+<br/>
+**Detect 2 Emotion, From Picture and Human Face**
+<br/><br/>
+
+<p align="left">
+  <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/099a737b-2eda-4559-b5d5-615219f3f831" alt="Picture4" width="300" height="250">
+</p>
 
 <br/><br/>
 Program Studi Informatika <br/>
