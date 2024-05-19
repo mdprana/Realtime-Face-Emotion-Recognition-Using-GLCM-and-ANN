@@ -6,6 +6,17 @@ Emotions play a pivotal role in human communication and interaction. Understandi
 
 The core of our project lies in the utilization of GLCM, a texture analysis technique, which captures spatial dependencies within images. By extracting texture features from facial images, we can discern subtle patterns indicative of different emotions. This allows our system to robustly analyze facial expressions and infer underlying emotions with remarkable precision.
 
+## Dependencies:
+* pip install numpy
+* pip install pandas
+* pip install tensorflow
+* pip install keras
+* pip install opencv-python
+
+## YouTube
+
+
+
 Informatika Udayana 2024
 
 Mata Kuliah: Pengantar Pemrosesan Data Multimedia
