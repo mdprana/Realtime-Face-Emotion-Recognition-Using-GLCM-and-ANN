@@ -26,11 +26,11 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
    * ``` pip install tflearn```
    * ``` pip install keras```
    * ``` pip install pandas```
-   * ``` pip install seaborn ```
+   * ```  pip install seaborn ```
    * ``` pip install matplotlib```
    * ``` pip install scikit-image```
    * ``` pip install scikit-learn```
-   * ``` pip install pillow ```
+   * ```  pip install pillow ```
    * ``` pip install keras-tuner```
    * ``` pip install joblib```
 
@@ -59,9 +59,6 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 6. The system will display the video feed with detected faces and recognized emotions.
 7. Press the  ``` q ``` key on keyboard to quit the application.
 
-## YouTube
-
-
 ## Realtime Demo Preview
 
 <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/d1168abd-fd68-44b9-bf18-14397621ba50" alt="Picture1" width="300" height="250">
@@ -79,11 +76,13 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 
 <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/099a737b-2eda-4559-b5d5-615219f3f831" alt="Picture4" width="300" height="250">
 
-
+## YouTube
+[![Video Demo](https://img.youtube.com/vi/xBfPaHDOllo/maxresdefault.jpg)](https://www.youtube.com/watch?v=xBfPaHDOllo)
+Source: https://youtu.be/xBfPaHDOllo
 
 <br/><br/>
-Program Studi Informatika <br/>
-Mata Kuliah Pengantar Pemrosesan Data Multimedia.
+Mata Kuliah Pengantar Pemrosesan Data Multimedia <br/>
+Program Studi Informatika
 <br/><br/>
-Universitas Udayana <br/>
-Tahun Ajaran 2023/2024 <br/>
+**Universitas Udayana** <br/>
+**Tahun Ajaran 2023/2024** <br/>
