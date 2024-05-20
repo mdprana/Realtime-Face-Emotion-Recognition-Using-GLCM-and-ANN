@@ -71,7 +71,7 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/c8838b3c-0b21-48b9-a808-f6aeafe50c65" alt="Picture3" width="300" height="250">
 <br/><br/>
 
-**Detect 2 Emotion, From Picture and Human Face**
+**Detect 2 Emotions, From Picture and Human Face**
 
 
 <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/099a737b-2eda-4559-b5d5-615219f3f831" alt="Picture4" width="300" height="250">
