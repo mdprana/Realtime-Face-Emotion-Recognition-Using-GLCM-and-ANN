@@ -1,0 +1,14 @@
+numpy
+opencv-python
+tensorflow
+tflearn
+keras
+pandas
+seaborn
+matplotlib
+scikit-image
+scikit-learn
+pillow
+keras-tuner
+joblib
+streamlit
