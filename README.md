@@ -59,6 +59,8 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 6. The system will display the video feed with detected faces and recognized emotions.
 7. Press the  ``` q ``` key on keyboard to quit the application.
 
+## You can visit this to try the app also: https://realtime-emotion.streamlit.app/
+
 ## Realtime Demo Preview
 
 <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/d1168abd-fd68-44b9-bf18-14397621ba50" alt="Picture1" width="300" height="250">
