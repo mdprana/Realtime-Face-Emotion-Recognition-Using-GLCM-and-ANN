@@ -96,7 +96,7 @@ def main():
        </div>
        """, unsafe_allow_html=True)
 
-   st.title("Aplikasi Pendeteksi Emosi Wajah Secara Realtime")
+   st.title("EmotiScan: Aplikasi Pendeteksi Emosi Wajah Secara Realtime")
    model, scale, label, face_cascade = load_models()
 
    col1, col2 = st.columns([2, 1])
