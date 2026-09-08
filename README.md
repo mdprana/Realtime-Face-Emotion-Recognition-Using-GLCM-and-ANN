@@ -61,6 +61,20 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 
 ## You can visit this to try the app also: https://realtime-emotion.streamlit.app/
 
+### Streamlit deployment
+
+Install `requirements.txt` and run `streamlit run streamlit.py`. For Streamlit
+Community Cloud, keep `streamlit.py` as the entrypoint and use Python 3.12.
+
+The Streamlit requirements pin `opencv-python-headless` to 4.13.0.92 because
+[OpenCV 5 moved Haar cascade detection into the contrib modules](https://github.com/opencv/opencv/wiki/OpenCV-Change-Logs#version50-alpha).
+An unrestricted upgrade can cause `AttributeError: module 'cv2' has no attribute
+'CascadeClassifier'`. Install only one OpenCV package in the app environment;
+the desktop `opencv-python` package listed above is for `demo.py`.
+
+After pushing dependency changes to the branch used by Streamlit Cloud, let the
+app rebuild. If it still uses the old environment, reboot it from **Manage app**.
+
 ## Realtime Demo Preview
 
 <img src="https://github.com/mdprana/Realtime-Face-Emotion-Recognition-Using-GLCM-and-ANN/assets/95018619/d1168abd-fd68-44b9-bf18-14397621ba50" alt="Picture1" width="300" height="250">

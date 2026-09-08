@@ -1,5 +1,6 @@
 numpy
-opencv-python-headless
+# OpenCV 5 moved Haar cascade detection out of the main package.
+opencv-python-headless==4.13.0.92
 tensorflow
 tflearn
 keras

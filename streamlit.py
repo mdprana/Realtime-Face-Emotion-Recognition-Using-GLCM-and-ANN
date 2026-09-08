@@ -1,9 +1,12 @@
 import streamlit as st
+from pathlib import Path
 import cv2
 import numpy as np
 from joblib import load
 import tensorflow as tf
 from PIL import Image
+
+APP_DIR = Path(__file__).resolve().parent
 
 st.set_page_config(layout="wide")
 
@@ -40,10 +43,12 @@ st.markdown("""
 
 @st.cache_resource
 def load_models():
-    model = tf.keras.models.load_model('model/model.h5')
-    scale = load('model/scaling.pkl')
-    label = load('model/label.pkl')
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    model = tf.keras.models.load_model(str(APP_DIR / 'model/model.h5'))
+    scale = load(APP_DIR / 'model/scaling.pkl')
+    label = load(APP_DIR / 'model/label.pkl')
+    face_cascade = cv2.CascadeClassifier(str(APP_DIR / 'haarcascade_frontalface_default.xml'))
+    if face_cascade.empty():
+        raise RuntimeError('Unable to load haarcascade_frontalface_default.xml.')
     return model, scale, label, face_cascade
 
 def extract_features(image):
@@ -74,7 +79,7 @@ def process_image(image, model, scale, label, face_cascade):
 
 def main():
    with st.sidebar:
-       st.image("emotion-recognition.webp")
+       st.image(str(APP_DIR / "emotion-recognition.webp"))
        mode = st.selectbox("Pilih Mode", ["Kamera", "Unggah Gambar"])
        
        st.markdown("""
