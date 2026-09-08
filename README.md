@@ -59,7 +59,7 @@ Source: https://www.kaggle.com/datasets/noamsegal/affectnet-training-data
 6. The system will display the video feed with detected faces and recognized emotions.
 7. Press the  ``` q ``` key on keyboard to quit the application.
 
-## You can visit this to try the app also: https://realtime-emotion.streamlit.app/
+## You can visit this to try the app also: https://emotiscan.streamlit.app/
 
 ### Streamlit deployment
 
